@@ -421,8 +421,15 @@ a {
 	background: #2E2100;
 }
 
+.feedback-list {
+	display: flex;
+	overflow: hidden;
+}
+
 .feedback .feedback-item {
 	display: flex;
+	width: 100%;
+	flex-shrink: 0;
 }
 
 .feedback .info .avatar {
