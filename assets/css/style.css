@@ -487,3 +487,49 @@ a {
 	font-style: italic;
 	line-height: 1.54; /* 153.846% */
 }
+
+/* ========= Features ========= */
+.features {
+	margin-top: 135px;
+	padding: 65px 0;
+}
+
+.features .body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.features .images {
+	display: flex;
+	gap: 0 30px;
+}
+
+.features .images img {
+	width: 270px;
+	height: 404px;
+	border-radius: 16px;
+	object-fit: cover;
+}
+
+.features .images img:first-child {
+	margin-top: 30px;
+}
+
+.features .content {
+	width: 40%;
+}
+
+.features .content .desc {
+	margin-top: 16px;
+	color: #5F5B53;
+	font-size: 1.6rem;
+	line-height: 1.75; /* 175% */
+}
+
+.features .content .cta-btn {
+	margin-top: 32px;
+	min-width: 137px;
+	color: #fff;
+	background-color: var(--primary-color);
+}
