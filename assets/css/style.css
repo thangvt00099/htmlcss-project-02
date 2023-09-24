@@ -63,6 +63,7 @@ a {
 	line-height: 126.316%; /* 126.316% */
 }
 
+
 .line-clamp {
 	display: -webkit-box;
 	-webkit-line-clamp: var(--line-clamp, 1);
@@ -669,4 +670,90 @@ a {
 	cursor: default;
 	background-color: var(--primary-color);
 }
+
+
+/* ========= Footer ========= */
+.footer {
+	background: #2E2100;
+	padding: 96px 135px 0;
+}
+
+.footer .row {
+	display: flex;
+	padding-bottom: 38px;
+	border-bottom: 1px solid #59554B;
+}
+
+.footer .row .column {
+	width: 21.6%;
+}
+
+.footer .row .column:first-child {
+	width: 35%;
+}
+
+.footer .column .desc {
+	margin: 18px 0;
+	max-width: 267px;
+	color: #BFBCB2;
+	font-size: 1.4rem;
+	line-height: 1.85; /* 185.714% */
+}
+
+.footer .column .socials {
+	display: flex;
+	gap: 0 18px;
+}
+
+.footer .column .title {
+	position: relative;
+	padding-bottom: 14px;
+	color: #FFF;
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 1.75; /* 175% */
+}
+
+.footer .column .title::after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: "";
+	display: inline-block;
+	width: 130px;
+	height: 1px;
+	background: #59554B;
+}
+
+.footer .column .list {
+	margin-top: 28px;
+}
+
+.column .list a {
+	color: #BFBCB2;
+	font-size: 1.4rem;
+	line-height: 1.85; /* 185.714% */	
+}
+
+.column .list li+li {
+	margin-top: 12px;
+}
+
+.column .list .key {
+	color: #FFF;
+	font-size: 1.rem;
+	font-weight: 600;
+	line-height: 1.85; /* 185.714% */
+}
+
+.footer .copy-right .desc {
+	margin-top: 28px;
+	padding-bottom: 28px;
+	color: #807D74;
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 1.85; /* 185.714% */
+}
+
+
 
